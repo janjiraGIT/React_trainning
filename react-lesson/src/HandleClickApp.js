@@ -7,13 +7,13 @@ function clickMe() {
 function HandleClickApp() {
     return (
         <div>
-            <img src="http://www.fillmurray.com/200/300" />
+            <img onMouseOver={ () => console.log("Hovered!")}
+            src="http://www.fillmurray.com/200/300" />
             <br />
             <br />
             <button onClick={clickMe}> Click</button>
         </div>
     )
 }
-
 
 export default HandleClickApp
