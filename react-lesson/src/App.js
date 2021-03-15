@@ -1,8 +1,9 @@
 import React from 'react';
 
-import TodoApp from "./componentsTodo/TodoApp"
+import TodoApp from "./TodoApp"
 import ClickApp from "./ClickApp"
 import "./App.css";
+import HandleClickApp from './HandleClickApp';
 
 class App extends React.Component {
 
@@ -20,6 +21,7 @@ class App extends React.Component {
         <ClickApp />
         <br/>
         <TodoApp />
+        <HandleClickApp />
       </div>
     )
   }

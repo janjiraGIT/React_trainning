@@ -4,7 +4,7 @@ function handleClick() {
     console.log("I was clicked")
 }
 
-function HandleClickApp(props) {
+function HandleClickApp() {
     return (
         <div>
             <img onMouseOver={ () => console.log("Hovered!")}
