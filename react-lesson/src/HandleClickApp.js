@@ -1,17 +1,17 @@
 import React from "react"
 
-function clickMe() {
+function handleClick() {
     console.log("I was clicked")
 }
 
-function HandleClickApp() {
+function HandleClickApp(props) {
     return (
         <div>
             <img onMouseOver={ () => console.log("Hovered!")}
             src="http://www.fillmurray.com/200/300" />
             <br />
             <br />
-            <button onClick={clickMe}> Click</button>
+            <button onClick={handleClick}> Click</button>
         </div>
     )
 }
