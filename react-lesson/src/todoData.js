@@ -1,32 +1,32 @@
 const todosData = [
     {
         id:"1",
-        text: "Do home work",
+        text: "Study",
         completed: true
     },
     {
         id:"2",
-        text: "Hair cut",
+        text: "Running",
         completed: false
     },
     {
         id:"3",
-        text: "Swimming Class",
+        text: "Hiking",
         completed: false
     },
     {
         id:"4",
-        text: "Clean your own room",
+        text: "Clean the kitchen",
         completed: true
     },
     {
         id:"5",
-        text: "Practis Thai language",
+        text: "Thai language",
         completed: false
     },
     {
         id:"6",
-        text: "Practis foot ball",
+        text: "Foot ball",
         completed: true
     },
 ]

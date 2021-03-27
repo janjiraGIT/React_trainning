@@ -7,7 +7,7 @@ function handleClick() {
 function HandleClickApp() {
     return (
         <div>
-            <img onMouseOver={ () => console.log("Hovered!")}
+            <img onMouseOver={ () => console.log("Mouse Over!")}
             src="http://www.fillmurray.com/200/300" />
             <br />
             <br />
