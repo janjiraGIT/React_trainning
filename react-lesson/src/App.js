@@ -3,25 +3,36 @@ import React from 'react';
 import TodoApp from "./TodoApp"
 import ClickApp from "./ClickApp"
 import "./App.css";
-import HandleClickApp from './HandleClickApp';
+import HandleClickApp from './HandleClickApp'
+import LoadingApp from './LoadingApp'
+import Message from './Message'
+import ContactCardApp from './ContactCardApp'
+
 
 class App extends React.Component {
 
   constructor() {
     super()
     this.state = {
-      text: "Hello Janjira"
+      text: "This is the main App"
     }
   }
 
   render() {
     return (
       <div className="app">
+        <LoadingApp />
+        <ContactCardApp/>
+        <br/>
         <h1>{this.state.text}</h1>
+        <br/>
         <ClickApp />
         <br/>
-        <TodoApp />
         <HandleClickApp />
+        <br/>
+        <TodoApp />
+        <br/>
+        <Message />
       </div>
     )
   }
