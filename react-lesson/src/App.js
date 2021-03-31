@@ -7,6 +7,7 @@ import HandleClickApp from './HandleClickApp'
 import LoadingApp from './LoadingApp'
 import Message from './Message'
 import ContactCardApp from './ContactCardApp'
+import QuestinsApp from './QuestionsApp'
 
 
 class App extends React.Component {
@@ -22,6 +23,9 @@ class App extends React.Component {
     return (
       <div className="app">
         <LoadingApp />
+        <br/>
+        <QuestinsApp />
+        <br/>
         <ContactCardApp/>
         <br/>
         <h1>{this.state.text}</h1>
