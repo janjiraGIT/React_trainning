@@ -8,6 +8,7 @@ import LoadingApp from './LoadingApp'
 import Message from './Message'
 import ContactCardApp from './ContactCardApp'
 import QuestinsApp from './QuestionsApp'
+import LoginApp from './LoginApp'
 
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
       <div className="app">
         <LoadingApp />
         <br/>
+        <LoginApp />
         <QuestinsApp />
         <br/>
         <ContactCardApp/>
