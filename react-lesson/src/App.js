@@ -10,6 +10,7 @@ import ContactCardApp from './ContactCardApp'
 import QuestinsApp from './QuestionsApp'
 import LoginApp from './LoginApp'
 import FetchStarWar from './FetchStarWar'
+import FormNameApp from './FormNameApp'
 
 
 class App extends React.Component {
@@ -25,6 +26,8 @@ class App extends React.Component {
     return (
       <div className="app">
         <LoadingApp />
+        <br/>
+        <FormNameApp  />
         <br/>
         <FetchStarWar />
         <br/>
